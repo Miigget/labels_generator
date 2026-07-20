@@ -1,0 +1,6 @@
+reportlab>=4.2,<5
+python-barcode[images]>=0.15.1,<1
+qrcode[pil]>=8.0,<9
+Pillow>=10.0,<12
+# 1.5.x renders via ReportLab only; 1.6+ requires system Cairo (pycairo).
+svglib>=1.5.1,<1.6
